@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {% for item in userlist %}
+    <li>{{ item.id}}</li>
+    <li>{{ item.name}}</li>
+    <li>{{ item.age}}</li>
+    <li>{{ item.de}}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
